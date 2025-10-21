@@ -1,0 +1,191 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(126, 34, 156, 0.459)20%,rgb(138, 17, 224)100%), url(jpg);
+    background-position: center;
+    background-size: blur(15px);
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 79px;
+    margin: auto;
+    
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 75px;
+    background: url(icon.png);
+}
+.logo{
+    color: rgba(245, 239, 246, 0.837);
+    font-size:50px;
+    font-family:'Cursive';
+    float:right;
+    padding-top: 10px;
+    margin-top: 5px;
+    margin-right: -50px;
+}
+.menu{
+    width:100px;
+    float:left;
+    height: 60px;
+    margin-left: 200px;
+
+}
+ul{
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left:70px;
+    margin-top:20px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul li a{
+    text-decoration: none;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: ease-in-out 0.3s;
+}
+ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.icons a{
+    text-decoration: none;
+    color: #141010;
+}
+.content{
+    width: 1200px;
+    margin: auto;
+    color: azure;
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+.content h1{
+    font-size: 50px;
+   
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background: #d70be6;
+    color: rgb(234, 243, 243);
+    font-size: 15px;
+    font-family: sans-serif;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+button:hover{
+    background: #090404;
+    color: #ed11d7;
+}
+.icons ion-icon{
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid #141010;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: ease-in-out 0.3s;
+}
+.icons ion-icon:hover{
+    background: #c61010;
+    color: #f42020;
+}
+section{
+    width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.slide{
+    width: 80%;
+    height:100%;
+    margin: 0%;
+    padding:10% ;
+    background: linear-gradient(to top,rgb(153, 49, 222)20%,#7e229c75), url(jpg);
+}
+div.slide h3{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #f7fffe;
+    margin-left: 500px;
+    text-align: center;
+    margin-top: -300px;
+}
+div.slide p{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #f7fffe;
+    margin-left: 500px;
+    text-align: center;
+    margin-top: 20px;
+}
+.social{
+   background-color: #443847;
+   width: auto;
+   padding: 40px 0;
+   text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+.social-icons a{
+
+    color: #f1eeee;
+    font: 300px;
+    transition: color 0.3s;
+    font-size: 40px
+}
+.social-icons a:hover{
+    color: #e7d6d6;
+}
+    section#education{
+        margin-top: 50px;
+        text-align: center;
+    }
+    section h3{
+       font-size: 30px;
+         font-family: sans-serif;
+    }
+    .content{
+        margin-top: 20px;
+         font-size: medium;
+            font-family: sans-serif;
+            background-color: #d70be6;
+
+    }
+    content h2{
+        margin-top: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #58126f75;
+
+    }
